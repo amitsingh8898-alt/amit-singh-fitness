@@ -120,10 +120,35 @@ function App() {
           <p className="eyebrow">05 / CLIENT WORDS</p>
           <div className="quote-grid">{testimonials.map(([q,n])=><blockquote key={n}><p>{q}</p><footer>{n}</footer></blockquote>)}</div>
         </section>
+<section className="faq">
+  <p className="eyebrow">06 / FAQ</p>
+  <h2>QUESTIONS?<br/><i>ANSWERS.</i></h2>
 
+  <div className="faq-grid">
+    <div>
+      <strong>WHERE DO YOU TRAIN?</strong>
+      <p>Personal training is available in Mumbai. Online coaching is also available.</p>
+    </div>
+
+    <div>
+      <strong>WHAT GOALS DO YOU HELP WITH?</strong>
+      <p>Fat loss, muscle building, strength, general fitness and better overall conditioning.</p>
+    </div>
+
+    <div>
+      <strong>DO I NEED GYM EXPERIENCE?</strong>
+      <p>No. Training is adapted to your current fitness level and experience.</p>
+    </div>
+
+    <div>
+      <strong>HOW DO I GET STARTED?</strong>
+      <p>Fill in the contact form or WhatsApp me directly. We’ll discuss your goal and the right plan.</p>
+    </div>
+  </div>
+</section>
         <section id="contact" className="contact">
           <div>
-            <p className="eyebrow">06 / START HERE</p>
+            <p className="eyebrow">07 / START HERE</p>
             <h2>READY TO<br/><i>GET STARTED?</i></h2>
             <p>Tell me your goal. We’ll work out the right next step.</p>
             <a className="contact-line" href="tel:+918898851338">+91 88988 51338</a>
