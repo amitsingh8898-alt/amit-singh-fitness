@@ -105,16 +105,7 @@ function App() {
           </div>
         </section>
 
-        <section id="pricing" className="pricing">
-          <div className="section-head">
-            <div><p className="eyebrow">04 / MEMBERSHIPS</p><h2>CHOOSE YOUR<br/><i>COMMITMENT.</i></h2></div>
-          </div>
-          <div className="price-grid">
-            <div className="price"><span>1 MONTH</span><strong>₹12,000</strong><small>12 personal training sessions</small><a href="#contact">GET STARTED →</a></div>
-            <div className="price featured"><em>MOST POPULAR</em><span>3 MONTHS</span><strong>₹36,000</strong><small>38 personal training sessions</small><a href="#contact">GET STARTED →</a></div>
-            <div className="price"><span>6 MONTHS</span><strong>₹72,000</strong><small>40 personal training sessions</small><a href="#contact">GET STARTED →</a></div>
-          </div>
-        </section>
+  
 
         <section className="testimonials">
           <p className="eyebrow">05 / CLIENT WORDS</p>
