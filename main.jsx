@@ -12,7 +12,7 @@ const programs = [
 ];
 
 const testimonials = [
-  const testimonials = [
+   
 ["“Structured training designed around your fitness goal, current level and progress.”", "Personal Training"],
 ["“Clear guidance, practical workouts and consistent accountability throughout your journey.”", "Client Experience"],
 ["“Simple, sustainable fitness — focused on getting stronger, fitter and more confident.”", "Training Approach"]
