@@ -12,10 +12,12 @@ const programs = [
 ];
 
 const testimonials = [
-  ["“The plan finally felt made for me. I knew what to do every session and could see my progress.”", "Client transformation"],
-  ["“Amit keeps training practical and focused. The accountability made the biggest difference.”", "Personal training client"],
-  ["“Clear guidance, consistent follow-up and no complicated fitness rules.”", "Online coaching client"]
+  const testimonials = [
+["“Structured training designed around your fitness goal, current level and progress.”", "Personal Training"],
+["“Clear guidance, practical workouts and consistent accountability throughout your journey.”", "Client Experience"],
+["“Simple, sustainable fitness — focused on getting stronger, fitter and more confident.”", "Training Approach"]
 ];
+
 
 function App() {
   const [form, setForm] = useState({name:"", phone:"", goal:"Fat Loss", message:""});
